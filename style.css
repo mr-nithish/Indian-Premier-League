@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: lavender;
+}
+
+tr:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+
+tr:nth-child(even) {
+    background-color: lightcyan;
+}
+
+.cri{
+    display: flex;
+    flex-direction: column;
+}
+
+.cri img{
+    width: 100%;
+    height: 100vh;
+}
+
+.cri h1{
+    position: absolute;
+    margin: 40px 640px;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+.cri h2{
+    position: absolute;
+    margin: 100px;
+    margin-left: 450px;
+    text-align: center;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+.cri table{
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 340px;
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 20px;
+}
